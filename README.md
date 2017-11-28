@@ -1,5 +1,5 @@
 # yaml2latex
-(YAML AND TEX TEMPLATES) to TEX GENERATOR   
+(YAML + TEX Templates) to TEX   
 ==========================================
 ### Introduction:
 
