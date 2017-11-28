@@ -53,12 +53,9 @@ Option b.) Run "mkresume.py" -h for info on the input and output
         In short you have to give as input: 
 	  -1.) YAML FILE, consistent with the script                  (see example/resume.yaml)
 
-
 	  -2.) PATH TO TEMPLATES, path where your template .tex files are located (see example/template)
 
-
           -3.) HEADER TEMPLATE, name of HEADER template file (see example/template/cvhead1.tex
-
 
           -4.) BODY TEMPLATE, name of BODY template file (see example/template/cvbody1.tex)
 
