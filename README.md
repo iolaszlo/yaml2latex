@@ -16,7 +16,7 @@ This is another YAML to LATEX, Curriculum Vitae generator with an extension to g
 
 
        b)For developers:
-	 Modify the yaml/tex templates and the code nin "mkresume.py" to meet your own templating needs. 
+	 Modify the yaml/tex templates and the code in "mkresume.py" to meet your own templating needs. 
 	 With small modifications in this simple code a more general yaml to tex generation toolchain can be set up.
 
 
@@ -31,6 +31,7 @@ This project is inspired by the work of:
 
 
 Dependencies:
+
 	a) A linux distro with "bash" working
 
 	b) A modern version of Python, with the dependencies listed in "mkresume.py" installed
