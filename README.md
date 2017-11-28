@@ -30,33 +30,33 @@ This project is inspired by the work of:
 ### Pre-Install:
 
 
-Dependencies:a) A linux distro with "bash" working
+Dependencies:
+	a) A linux distro with "bash" working
 
-	     b)	A modern version of Python, with the dependencies listed in "mkresume.py" installed
+	b) A modern version of Python, with the dependencies listed in "mkresume.py" installed
 	     
 ### Install:
 
-1.)Download and extract this whole project from GitHub.
+	1.)Download and extract this whole project from GitHub.
 
-
-2.)Make the files "mkresume.py" and  "runme.sh" executable if necessary.
+	2.)Make the files "mkresume.py" and  "runme.sh" executable if necessary.
 
 ### Use:
  
-Option a.) View and run the "runme.sh" file for a working example. The output will be in "example/cv.tex"
+	Option a.) View and run the "runme.sh" file for a working example. The output will be in "example/cv.tex"
 
 
-Option b.) Run "mkresume.py" -h for info on the input and output
+	Option b.) Run "mkresume.py" -h for info on the input and output
 
 
-        In short you have to give as input: 
-	  -1.) YAML FILE, consistent with the script                  (see example/resume.yaml)
+        	In short you have to give as input: 
+	 		 1.) YAML FILE, consistent with the script                  (see example/resume.yaml)
 
-	  -2.) PATH TO TEMPLATES, path where your template .tex files are located (see example/template)
+	 		 2.) PATH TO TEMPLATES, path where your template .tex files are located (see example/template)
 
-          -3.) HEADER TEMPLATE, name of HEADER template file (see example/template/cvhead1.tex
+        		  3.) HEADER TEMPLATE, name of HEADER template file (see example/template/cvhead1.tex
 
-          -4.) BODY TEMPLATE, name of BODY template file (see example/template/cvbody1.tex)
+        		  4.) BODY TEMPLATE, name of BODY template file (see example/template/cvbody1.tex)
 
 
 ### Contact:
