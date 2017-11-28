@@ -11,15 +11,19 @@ This is another YAML to LATEX, Curriculum Vitae generator with an extension to g
 
 
        a)For users:
-   	 Modify the yaml file in the "example" directory to your own liking, then run "runme.sh" to generate your self contained "cv.tex".
+   	 Modify the yaml file in the "example" directory to your own liking, then run "runme.sh" to generate your
+ self contained "cv.tex".
 
 
        b)For developers:
-	 Modify the yaml/tex templates and the code nin "mkresume.py" to meet your own templating needs. With small modifications in this simple code a more general yaml to tex generation toolchain can be set up.
+	 Modify the yaml/tex templates and the code nin "mkresume.py" to meet your own templating needs. 
+With small modifications in this simple code a more general yaml to tex generation toolchain can be set up.
 
 
 ### Acknowledgements:
-This project is inspired by the work of Aleksandr Mattal <a href="https://github.com/QuteBits/resume_42">https://github.com/QuteBits/resume_42"</a> and  by the work of Brandon Amos: <a href="https://github.com/bamos/cv">https://github.com/bamos/cv</a>
+This project is inspired by the work of:
+ Aleksandr Mattal <a href="https://github.com/QuteBits/resume_42">https://github.com/QuteBits/resume_42"</a> and 
+ by the work of Brandon Amos: <a href="https://github.com/bamos/cv">https://github.com/bamos/cv</a>
 
 
 
