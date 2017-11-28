@@ -1,0 +1,117 @@
+name: John Doe
+email: John.Doe@gmail.com
+#
+# 
+# 
+# 
+#  A stripped-down version of the original yaml  template source by Aleksandr Mattal (qute.bits@gmail.com) at https://github.com/qutebits/resume_42/resume.yaml
+# 
+# 
+# 
+# 
+# 
+#
+#  Original Yaml template source: Aleksandr Mattal, qute.bits@gmail.com, https://github.com/qutebits/resume_42
+#
+#   GENERAL GUIDELINES from the original author Aleksandr Mattal:
+# ------------------------------------------------------------------------------
+# - if you change the name of any section in 'order' list (example: you rename
+#   "PORTFOLIO" into "STUFF"), remember that you also have to change that name
+#   in the resume-section.tmpl.tex
+# - quote the strings with : or - because these are YAML special chars
+# - avoid / symbol - it fucks up the height of some fonts
+# - if _ (underscore) is needed in PDF: TeX needs \_ so you write \\_ in YAML
+#   because YAML converts \\ to \
+# - if _ is a part of url - put the whole url into \url{} brackets in TeX cause
+#   otherwise www.let.it/be_good/ will compile to www.let.it/be in PDF on hover
+# - COMPILE TWICE when done - needed by TeX to get the lastpage number right
+
+order:
+  - [life_education, LIFE / EDUCATION]
+  - [industry, WORK EXPERIENCE]
+  - [research, RESEARCH EXPERIENCE]
+  - [portfolios, PORTFOLIO]
+  - [tools, TOOLS]
+  - [honors, ACHIEVEMENTS]
+  - [languages, HUMAN LANGUAGES]
+  - [personal_projects, PERSONAL PROJECTS]
+
+life_education:
+  - experience: moved to a place called
+    dates: 2011
+
+  - experience: University of University
+    location: Republic of REpublic
+    degree: Diploma of Subject with Minor in Subject2
+    dates: 1800-1900
+    grade: "1.1 (best possible: 1.0)"
+
+research:
+  - title: "Scientific treatise on scientific topic"
+    link: "\\url{https://linknottomythesis.com}"
+    field: Field of Research
+    supervisor: Prof. Dr. John Professorson, chair at the Department.
+    grade: "2.0 (best possible: 1.0)"
+    description: "Studied studying under studying conditions"
+
+industry:
+  - place: Fancycorp, Good Corp. Bad Corp. etc.
+    location: City,of county
+    title: 'Associate CEO'
+    languages: PHP, C++, 
+    dates: 1922--Present
+    details:
+      - "Did project number 1 here, which was about this and that," 
+      - "Did project number 2 here, which was about this and that,"
+      - "Did project number 3 here, which was about this and that,"
+      - "Did project number 4 here, which was about this and that,"
+      - "Did project number 5 here, which was about this and that,"
+      - "Did project number 6 here, which was about this and that"
+  - place: Company2
+    location: City,of county
+    title: 'Associate associative'
+    languages: PHP, C++, 
+    dates: 1922--Present
+    details:
+      - "Did project number 1 here, which was about this and that," 
+      - "Did project number 2 here, which was about this and that,"
+      - "Did project number 3 here, which was about this and that,"
+      - "Did project number 4 here, which was about this and that,"
+      - "Did project number 5 here, which was about this and that,"
+      - "Did project number 6 here, which was about this and that"
+tools:
+  - title: Languages of choice
+    details: Natural Language, G programming language
+  - title: Some useful tool
+    details: "Description of the useful tool to tool"
+honors:
+  - honor: Honor at international competition1
+    date: 1922
+  - honor: Honor at international competition2
+    date: 1923
+
+portfolios:
+  - name: Portfolio Name 1
+    url: "https://github.com/"
+  - name: Porotfolio Name 2
+    url: "http://www.github.com"
+
+personal_projects:
+  - name: My fancy project1 Title
+    url: "https://github.com"
+    details:
+      - Generates a this that,
+      - Outputs this and that.
+      - Modifies this to that
+  - name: My fancy project2 Title
+    url: "https://github.com"
+    details:
+      - Some details on second project
+languages:
+  - language: Language1
+    level: Fluently fluent
+    certified: Certification1
+  - language: Language2
+    level: Fluently speaking and writing
+    certified: Certification2
+

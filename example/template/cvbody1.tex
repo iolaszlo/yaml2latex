@@ -1,3 +1,13 @@
+%
+%
+%
+% Identical to original template source by Aleksandr Mattal (qute.bits@gmail.com) at https://github.com/qutebits/resume_42/template/resume-section.tmpl.tex
+%
+%
+%
+%
+%
+
 \medskip
 
 \fontfamily{lmss}\selectfont
@@ -26,7 +36,7 @@
     \end{tabular}
     \vspace{1mm}
   ~{ endfor }~
-  %additional space
+  %additional space %comment by  author Aleksandr Mattal 
   \vspace{2mm}
 
 ~{ elif name == "WORK EXPERIENCE" }~
@@ -42,7 +52,7 @@
     \end{tabular}
     \vspace{2mm}
   ~{ endfor }~
-  %additional space
+  %additional space %comment by  author Aleksandr Mattal 
   \vspace{20mm}
 
 ~{ elif name == "RESEARCH EXPERIENCE" }~
@@ -60,7 +70,7 @@
     \end{tabular}
     \vspace{1mm}
   ~{ endfor }~
-  %additional space
+  %additional space %comment by  author Aleksandr Mattal 
   \vspace{4mm}
 
 ~{ elif name == "ACHIEVEMENTS" }~
@@ -77,7 +87,7 @@
     \bf {~{{ language.language }}~} & {\small ~{{ language.level }}~ ~{- if language.certified -}~ \small\color{maingrey}\hspace{1mm}(~{{ language.certified }}~)~{- endif -}~} \\
   ~{ endfor }~
   \end{tabular}
-  %additional space
+  %additional space %comment by  author Aleksandr Mattal 
   \vspace{50mm}
 
 ~{ elif name == "PORTFOLIO" }~
