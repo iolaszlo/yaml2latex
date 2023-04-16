@@ -1,32 +1,35 @@
 name: John Doe
 email: John.Doe@gmail.com
+# 
+#  A stripped-down version of the original yaml template source by Aleksandr
+#  Mattal (qute.bits@gmail.com) at
+#  https://github.com/QuteBits/resume_42/resume.yaml
+# 
+#  Original Yaml template source: Aleksandr Mattal, qute.bits@gmail.com, 
+#  https://github.com/QuteBits/resume_42
 #
-# 
-# 
-# 
-#  A stripped-down version of the original yaml  template source by Aleksandr Mattal (qute.bits@gmail.com) at https://github.com/qutebits/resume_42/resume.yaml
-# 
-# 
-# 
-# 
-# 
-#
-#  Original Yaml template source: Aleksandr Mattal, qute.bits@gmail.com, https://github.com/qutebits/resume_42
-#
+# ------------------------------------------------------------------------------
 #   GENERAL GUIDELINES from the original author Aleksandr Mattal:
 # ------------------------------------------------------------------------------
-# - if you change the name of any section in 'order' list (example: you rename
-#   "PORTFOLIO" into "STUFF"), remember that you also have to change that name
-#   in the resume-section.tmpl.tex
-# - quote the strings with : or - because these are YAML special chars
-# - avoid / symbol - it fucks up the height of some fonts
-# - if _ (underscore) is needed in PDF: TeX needs \_ so you write \\_ in YAML
-#   because YAML converts \\ to \
-# - if _ is a part of url - put the whole url into \url{} brackets in TeX cause
-#   otherwise www.let.it/be_good/ will compile to www.let.it/be in PDF on hover
-# - COMPILE TWICE when done - needed by TeX to get the lastpage number right
-
+#
+# -   If you change the name of any section in 'order' list (example: you
+#     rename "PORTFOLIO" into "STUFF"), remember that you also have to change
+#     that name in the "resume-section.tmpl.tex".
+#
+# -   Quote the strings with : or - because these are YAML special chars.
+#
+# -   Avoid / symbol - it spoils the height of some fonts
+#
+# -   If _ (underscore) is needed in PDF: TeX needs \_ so you write \\_ in YAML
+#     because YAML converts \\ to \
+#
+# -   If _ is a part of url - put the whole url into \url{} brackets in TeX
+#     cause otherwise "www.let.it/be_good/" will compile to "www.let.it/be" in
+#     PDF on hover
+#
+# -   COMPILE TWICE when done - needed by TeX to get the lastpage number right.
 order:
+  - [personal_projects, PERSONAL PROJECTS]
   - [life_education, LIFE / EDUCATION]
   - [industry, WORK EXPERIENCE]
   - [research, RESEARCH EXPERIENCE]
@@ -34,7 +37,6 @@ order:
   - [tools, TOOLS]
   - [honors, ACHIEVEMENTS]
   - [languages, HUMAN LANGUAGES]
-  - [personal_projects, PERSONAL PROJECTS]
 
 life_education:
   - experience: moved to a place called
@@ -114,4 +116,3 @@ languages:
   - language: Language2
     level: Fluently speaking and writing
     certified: Certification2
-
