@@ -22,7 +22,7 @@ python3 src/render-tex-from-template.py \
 # Acknowledgements
 
 This project is inspired by the work of [Aleksandr Mattal][mattal] and
-[Brandon Amos][brando-amos].
+[Brandon Amos][amos].
 
 # License
 
